@@ -116,8 +116,8 @@ body {
   min-height: 650px;
   display: flex;
   align-items: center;
-  background: radial-gradient(circle at 85% 25%, #e7e3ff, transparent 32%),
-              linear-gradient(135deg, #fbfbff, #f3f1ff);
+  background: #1A1A2E;
+  color: var(--white);
 }
 
 .hero-content {
@@ -132,7 +132,7 @@ body {
   color: var(--primary);
   font-weight: 800;
   letter-spacing: 1.5px;
-  font-size: 13px;
+  font-size: 19px;
   margin-bottom: 12px;
 }
 
@@ -141,10 +141,12 @@ body {
   font-size: clamp(42px, 6vw, 68px);
   line-height: 1.05;
   margin-bottom: 22px;
+  text-shadow: 3px 3px 10px #00FF00;
 }
 
 .hero h1 span {
-  color: var(--primary);
+  color: var(--white);
+  text-shadow: 3px 3px 10px #00FF00
 }
 
 .hero-description {
